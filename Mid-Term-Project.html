@@ -35,6 +35,19 @@
                 text-decoration: none;
                 color : rgb(73, 121, 255);
             }
+            table{
+                width: 100%;
+                border: 1px solid #222;
+                border-collapse: collapse;
+            }
+            thead{
+                background: #eee;
+            }
+            th, td{
+                border: 1px solid #ccc;
+                padding: 5px;
+                font-size: 0.8em;
+            }
         </style>
 
         <body>
@@ -44,6 +57,7 @@
             </div>
             <div id="sidebar">
                 <h2>기본정보</h2>
+                <img src="증명사진.jpg" width="130", height="160">
                 <p>이름 : 한지연
                     <br>
                     생년월일 : 2001. 02. 26
@@ -56,7 +70,7 @@
                 </p>
             </div>
             <div id="contents">
-                <h2>학력</h2>
+                <h2>학력사항</h2>
                 <ul>
                     <li>안산고등학교 졸업</li>
                     <li>단국대학교 정보통계학과 재학중</li>
@@ -67,55 +81,57 @@
                     <li>단국 소·중 데이터 분석 AI 경진대회 은상(팀), 단국대학교 SW중심대학사업단, 2020</li>
                     <li>국가승인통계 활용 UCC 공모전 최우수상(팀), 통계청, 2021</li>
                 </ol>
-                <h2>대외활동</h2>
-                <table>
-                    <thtead>
-                        <tr>
-                            <th>번호</th>
-                            <th>활동명</th>
-                            <th>활동기간</th>
-                            <th>기관</th>
-                        </tr>
-                    </thtead>
-                    <tbody>
-                        <tr>
-                            <th>1</th>
-                            <th>짝꿍 멘토단</th>
-                            <th>21.06~21.11</th>
-                            <th>교육부, </th>
-                        </tr>
-                        <tr>
-                            <th>2</th>
-                            <th>K-MOOC 홍보 모니터링단</th>
-                            <th>22.01~22.02</th>
-                            <th>단국대학교</th>
-                        </tr>
-                        <tr>
-                            <th>3</th>
-                            <th>서울런 멘토링</th>
-                            <th>22.03~23.02</th>
-                            <th>서울시</th>
-                        </tr>
-                        <tr>
-                            <th>4</th>
-                            <th>통계교육 재능기부단</th>
-                            <th>22.05~22.12</th>
-                            <th>통계청</th>
-                        </tr>
-                        <tr>
-                            <th>5</th>
-                            <th>제18기 CTL PRIDE(학생자문단)</th>
-                            <th>22.04.~23.02</th>
-                            <th>단국대학교</th>
-                        </tr>
-                        <tr>
-                            <th>6</th>
-                            <th>매치업 스마트시티 3차 서포터즈</th>
-                            <th>22.05~22.06</th>
-                            <th>단국대학교</th>
-                        </tr>
-                    </tbody>
-                </table>
+                <section>
+                    <h2>대외활동</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>활동명</th>
+                                <th>활동기간</th>
+                                <th>기관</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>짝꿍 멘토단</td>
+                                <td>21.06~21.11</td>
+                                <td>교육부, 한국과학창의재단,<br>대한민국대학생교육기부단</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>K-MOOC 홍보 모니터링단</td>
+                                <td>22.01~22.02</td>
+                                <td>단국대학교</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>서울런 멘토링</td>
+                                <td>22.03~23.02</td>
+                                <td>서울시</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>통계교육 재능기부단</td>
+                                <td>22.05~22.12</td>
+                                <td>통계청</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>제18기 CTL PRIDE(학생자문단)</td>
+                                <td>22.04.~23.02</td>
+                                <td>단국대학교</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>매치업 스마트시티 3차 서포터즈</td>
+                                <td>22.05~22.06</td>
+                                <td>단국대학교</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
             </div>
             <div id="footer">
                 <h2>fotter</h2>
