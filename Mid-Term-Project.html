@@ -9,13 +9,13 @@
                 margin: 0 auto;
             }
             #header{
-                background-color: #e2f0fc ;
+                background-color: #e2f0fc;
                 padding: 20px;
                 margin-bottom: 20px;
                 text-align: center;
             }
             #contents{
-                width: 620px;
+                width: 650px;
                 padding: 20px;
                 float: right;
                 margin-bottom: 20px;
@@ -25,6 +25,12 @@
                 padding: 20px;
                 float: left;
                 margin-bottom: 20px;
+            }
+            #footer{
+                background-color: #e2f0fc;
+                clear:both;
+                padding:20px;
+                text-align: center;
             }
             a{
                 text-decoration: none;
@@ -50,6 +56,28 @@
                 height: 35%;
                 padding:10px;
                 border:1px dashed black;
+            }
+            @media screen and (min-width:968px) and (max-width:1719px){
+                #container2{
+                    width:570px;
+                    margin: 50px auto;
+                    }
+                .card{
+                    position:relative;
+                    width: 550px;
+                    height: 250px;
+                    margin: 20px 10px;
+                    border: 1px solid #0f0f0f33;
+                    background-color: #ffffff;
+                }
+                .words{
+                    position:absolute;
+                    width:200px;
+                    left:310px;
+                    top:50px;
+                    padding:50px;
+                    text-align: center;
+                }
             }
         </style>
 
@@ -109,13 +137,13 @@
                     </ul>
                     <br>
                     <li>카페가기</li>
-                    <p>좋아하는 음료</p>
+                    <p>☆ 좋아하는 음료</p>
                     <ul>
                         <li>레몬/청포도 에이드</li>
                         <li>초코/딸기라떼</li>
                         <li>흑당밀크티</li>
                     </ul>
-                    <p>좋아하는 디저트</p>
+                    <p>☆ 좋아하는 디저트</p>
                     <ul>
                         <li>치즈케잌</li>
                         <li>크로플</li>
@@ -183,6 +211,25 @@
                         </tbody>
                     </table>
                 </section>
+                <h2>■자격증</h2>
+                <div id="container2">
+                    <div class="card">
+                        <img src="AI-900.png " width="350", height="250">
+                        <div class="words">
+                            <h3>AI-900</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="구글 애널리틱스.png" width="350", height="250">
+                        <div class="words">
+                            <h3>구글 애널리틱스</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="footer">
+                <p>감사합니다</p>
             </div>
             </div>
         </body>
